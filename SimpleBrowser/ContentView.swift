@@ -12,10 +12,11 @@ struct ContentView: View {
     var body: some View {
       VStack {
         SearchBar(viewModel: viewModel)
+        BottomBar(viewModel: viewModel)
       }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: ViewModel())
 }
