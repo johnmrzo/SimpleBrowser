@@ -11,6 +11,8 @@
 		EC94905A2AE6A060006C4920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490592AE6A060006C4920 /* ContentView.swift */; };
 		EC94905C2AE6A062006C4920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC94905B2AE6A062006C4920 /* Assets.xcassets */; };
 		EC94905F2AE6A062006C4920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC94905E2AE6A062006C4920 /* Preview Assets.xcassets */; };
+		EC9490662AE6A118006C4920 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490652AE6A118006C4920 /* SearchBar.swift */; };
+		EC9490682AE6A183006C4920 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490672AE6A183006C4920 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EC9490592AE6A060006C4920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC94905B2AE6A062006C4920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC94905E2AE6A062006C4920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9490652AE6A118006C4920 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		EC9490672AE6A183006C4920 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				EC9490592AE6A060006C4920 /* ContentView.swift */,
 				EC94905B2AE6A062006C4920 /* Assets.xcassets */,
 				EC94905D2AE6A062006C4920 /* Preview Content */,
+				EC9490652AE6A118006C4920 /* SearchBar.swift */,
+				EC9490672AE6A183006C4920 /* ViewModel.swift */,
 			);
 			path = SimpleBrowser;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				EC94905A2AE6A060006C4920 /* ContentView.swift in Sources */,
 				EC9490582AE6A060006C4920 /* SimpleBrowserApp.swift in Sources */,
+				EC9490682AE6A183006C4920 /* ViewModel.swift in Sources */,
+				EC9490662AE6A118006C4920 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
