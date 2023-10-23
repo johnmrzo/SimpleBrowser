@@ -14,6 +14,8 @@
 		EC9490662AE6A118006C4920 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490652AE6A118006C4920 /* SearchBar.swift */; };
 		EC9490682AE6A183006C4920 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490672AE6A183006C4920 /* ViewModel.swift */; };
 		EC94906A2AE6A2E7006C4920 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9490692AE6A2E7006C4920 /* BottomBar.swift */; };
+		EC94906C2AE6A740006C4920 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94906B2AE6A740006C4920 /* WebView.swift */; };
+		EC94906E2AE6AB36006C4920 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94906D2AE6AB36006C4920 /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		EC9490652AE6A118006C4920 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		EC9490672AE6A183006C4920 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		EC9490692AE6A2E7006C4920 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		EC94906B2AE6A740006C4920 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EC94906D2AE6AB36006C4920 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				EC9490652AE6A118006C4920 /* SearchBar.swift */,
 				EC9490672AE6A183006C4920 /* ViewModel.swift */,
 				EC9490692AE6A2E7006C4920 /* BottomBar.swift */,
+				EC94906B2AE6A740006C4920 /* WebView.swift */,
+				EC94906D2AE6AB36006C4920 /* ShareSheet.swift */,
 			);
 			path = SimpleBrowser;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 				EC94905A2AE6A060006C4920 /* ContentView.swift in Sources */,
 				EC94906A2AE6A2E7006C4920 /* BottomBar.swift in Sources */,
 				EC9490582AE6A060006C4920 /* SimpleBrowserApp.swift in Sources */,
+				EC94906C2AE6A740006C4920 /* WebView.swift in Sources */,
 				EC9490682AE6A183006C4920 /* ViewModel.swift in Sources */,
 				EC9490662AE6A118006C4920 /* SearchBar.swift in Sources */,
+				EC94906E2AE6AB36006C4920 /* ShareSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

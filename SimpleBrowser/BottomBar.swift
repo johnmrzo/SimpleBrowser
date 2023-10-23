@@ -12,23 +12,23 @@ struct BottomBar: View {
   var body: some View {
     HStack {
       Spacer()
-      Button(action: { }) {
+      Button(action: { viewModel.goBack() }) {
         Image(systemName: "chevron.left")
       }
       Spacer()
-      Button(action: { }) {
+      Button(action: { viewModel.goForward() }) {
         Image(systemName: "chevron.right")
       }
       Spacer()
-      Button(action: { }) {
+      Button(action: { viewModel.share() }) {
         Image(systemName: "square.and.arrow.up")
       }
       Spacer()
-      Button(action: { }) {
+      Button(action: { viewModel.refresh() }) {
         Image(systemName: "arrow.clockwise")
       }
       Spacer()
-      Button(action: { }) {
+      Button(action: { viewModel.stop() }) {
         Image(systemName: "xmark")
       }
       Spacer()
